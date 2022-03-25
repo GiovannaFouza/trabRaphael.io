@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--CONFIGURAÇÃO PARA ABRIR A PÁGINA-->
+<html lang="pt-BR">
+<!--CONFIGURAÇÃO DA LÍNGUA-->
+
+<head>
+    <!--ABRINDO A CABEÇA DA PÁGINA -->
+    <title>Trabalho Raphael</title>
+    <!--CONFIGURAÇÃO PARA O TÍTULO-->
+    <meta charset="utf-8">
+    <!--CONFIGURAÇÃO PARA DEIXAR AS PALAVRAS ASSETUADAS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CONFIGURAÇÃO PARA O TAMANHO DA PÁGINA-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--LINK DO BOOTSTRAP-->
+    <link rel="stylesheet" href="styleindex.css">
+    <!--ESTILO DA PÁGINA-->
+    <link rel="icon" href="icontrab.ico" type="image/x-icon" ?v=2 />
+
+
+    <script type="text/javascript">
+
+          function abrirJanela(pagina, largura, altura) { 
+              // Definindo centro da tela
+              var esquerda = (screen.width - largura)/2;
+              var topo = (screen.height - altura)/2;
+              // Abre a nova janela
+              minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
+          }
+
+</script>
+</head>
+<!--FIM DO CABEÇALHO-->
+
+<body>
+
+    <div id="conteudo" class="col-sm-12 col-md-12 col-lg-12">
+
+        <div id="criar" class="col-sm-12 col-md-4 col-lg-4">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p id="texto"> <a id="texto" href="#" onclick="javascript:abrirJanela('criar.html ', 700, 500 );">CRIAR</a></p>
+
+        </div>
+        <div id="atualizar" class="col-sm-12 col-md-4 col-lg-4">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p id="texto"><a id="texto" href="#" onclick="javascript:abrirJanela('atualizar.html ', 700, 500 );"> ATUALIZAR</a></p>
+
+        </div>
+        <div id="criar" class="col-sm-12 col-md-4 col-lg-4">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p id="texto"> <a id="texto" href="#" onclick="javascript:abrirJanela('deletar.html ', 700, 500 );">DELETAR</a></p>
+
+        </div>
+    </div>
+</body>
+
+</html>

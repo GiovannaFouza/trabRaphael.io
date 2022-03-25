@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--CONFIGURAÇÃO PARA ABRIR A PÁGINA-->
+<html lang="pt-BR">
+<!--CONFIGURAÇÃO DA LÍNGUA-->
+
+<head>
+    <!--ABRINDO A CABEÇA DA PÁGINA -->
+    <title>CADASTRO</title>
+    <!--CONFIGURAÇÃO PARA O TÍTULO-->
+    <meta charset="utf-8">
+    <!--CONFIGURAÇÃO PARA DEIXAR AS PALAVRAS ASSETUADAS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CONFIGURAÇÃO PARA O TAMANHO DA PÁGINA-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--LINK DO BOOTSTRAP-->
+    <link rel="stylesheet" href="stylecriar.css">
+    <!--ESTILO DA PÁGINA-->
+    <link rel="icon" href="icontrab.ico" type="image/x-icon" ?v=2 />
+</head>
+<!--FIM DO CABEÇALHO-->
+
+<body>
+
+    <div id="cadastro" class="col-sm-12 col-md-12 col-lg-12">
+        <center>
+            <form>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Código do Usuário</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+        </center>
+    </div>
+</body>
+
+</html>
